@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/contact/")
+@RequestMapping("/contact")
 public class FormController {
     private Map<String, String> radioGender;
     private Map<String, String> selectAddress;
