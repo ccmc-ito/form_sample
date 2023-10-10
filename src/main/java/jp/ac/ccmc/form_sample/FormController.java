@@ -27,7 +27,7 @@ public class FormController {
         selectAddress.put("Kanagawa", "神奈川県");
     }
 
-    @GetMapping(value = {"/", "/index"})
+    @GetMapping({"/", "/index"})
     public String index() {
         return "contact";
     }
